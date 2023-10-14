@@ -1,0 +1,18 @@
+label{
+  display: block;
+}
+
+form > label:not(:last-child){
+  margin-bottom: 10px;
+}
+
+form{
+  border: 1px solid black;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 10px;
+
+  &:not(:last-child){
+    margin-bottom: 20px;
+  }
+}
